@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, Student 👋"
+            android:textColor="@color/gray_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to UniMate"
+            android:textColor="@color/navy"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your University Life, Organized."
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Routine"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAssignment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assignment Manager"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Notes"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnExam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exam Schedule"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To-Do List"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPA Calculator"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>

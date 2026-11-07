@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPA Calculator 🎓"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/etCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course Credit"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Grade"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnAddCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Course" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course List"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/courseContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <Button
+            android:id="@+id/btnCalculateCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate CGPA"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tvCGPAResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your CGPA: 0.00"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="20dp" />
+
+    </LinearLayout>
+</ScrollView>

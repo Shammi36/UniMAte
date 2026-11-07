@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assignment Manager 📝"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#123B78"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etAssignmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Assignment Name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject Name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deadline (e.g. 20 Nov 2026)"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnAddAssignment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Assignment"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Assignments"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#123B78"
+            android:layout_marginTop="25dp"/>
+
+        <LinearLayout
+            android:id="@+id/assignmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
